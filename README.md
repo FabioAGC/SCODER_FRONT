@@ -11,9 +11,9 @@ cd frontend
 npm install
 ```
 
-3. Crie um arquivo `.env` no diretório raiz com as seguintes variáveis:
+3. Defina as seguintes variáveis de conexão com o Backend em api.ts:
 ```env
-VITE_API_URL=http://localhost:3000
+baseURL: 'http://localhost:3000/api'
 ```
 
 ### Executando a Aplicação
